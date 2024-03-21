@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:gravity="bottom"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/freesample_vectorizer_io_splash_removebg_preview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foodie"
+        android:textSize="24sp"
+        android:fontFamily="@font/rammetto_one"
+        android:textColor="@color/brown"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abel"
+        android:text="Soru Mukkiyam Bigilu"
+        android:textColor="@color/brown"
+        android:textSize="14sp"/>
+
+
+</LinearLayout>
